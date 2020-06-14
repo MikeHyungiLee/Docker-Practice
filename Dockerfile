@@ -17,5 +17,3 @@ RUN apt-get install -y php5.6-mysql
 EXPOSE 80
 
 CMD ["apachectl", "-D", "FOREGROUND"]
-
-
